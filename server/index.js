@@ -7,7 +7,7 @@ const cookiesParser = require("cookie-parser");
 const { app, server } = require("./socket/index");
 const path = require("path");
 
-const allowedOrigins = ["http://localhost:8080"];
+const allowedOrigins = ["https://chat-app-mern-wh3t.onrender.com"];
 
 app.use(
   cors({

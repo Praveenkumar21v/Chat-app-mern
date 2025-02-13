@@ -13,7 +13,7 @@ const app = express();
 const server = http.createServer(app);
 const cors = require("cors");
 
-const allowedOrigins = ["http://localhost:8080"];
+const allowedOrigins = ["https://chat-app-mern-wh3t.onrender.com"];
 
 app.use(
   cors({
